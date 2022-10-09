@@ -1,0 +1,28 @@
+*{
+    color:lightcoral;
+}
+h1{
+    color: brown;
+}
+a{color: darkgreen;}
+a[target="_blank"] {
+    color: blue;
+}
+strong{
+    color: darkred;
+}
+#work {
+    color: yellowgreen;
+}
+h3 {
+    color: indianred;
+}
+.list {
+    color: darksalmon;
+}
+.researches h3 {
+    color: red;
+}
+.text,.reference{
+    color: black;
+}

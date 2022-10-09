@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Бувають такі види селекторів:
+        1) Універсальні, позначка * (використав для всіх елементів),
+        2) Селектор по назві тегу, позначка - назва тегу (використав для h1,h3,a,strong,)
+        3)Селектор по назві атрибуту, позначка тег[назва атрибуту] (використав для a[target="_blank"])
+        4) Селектор по назві класу, позначка ."найменування класу" (використав для перелік із назвою класу "list")
+        5) Селектор по назві id, позначка #id (використав для одного заголовку та тексту id="work")
+        6) Дочірні селектори, позначка а>b 
+        7) Сестринські селектори, позначка а+в
+        8) Селектори вкладення а в (використав для стилю research та h3)
+        9) Вибір декількох класів а,в (використав для стилів .text,.reference)
+        10-11) селектори псевдокласів та псевдоелементів, проте про них не знаю
+    -->
+    <h1>Загальна інформація</h1>
+    <hr>
+    <ol>
+        <li><a href="#education"> Освіта</a></li>
+        <li><a href="#experience">Досвід роботи</a></li>
+        <li><a href="#skills">Професійні навички</a></li>
+        <li><a href="#researches">Посилання на окремі результати наукової діяльності</a></li>
+    </ol>
+    <div id="education">
+        <h3>Освіта</h3>
+        <p id="work">вересень 2017р. – червень 2021р., Національний університет «Одеська юридична академія», судово-адміністративний факультет, спеціальність «Право», диплом бакалавра з відзнакою;<br>
+            вересень 2017р. – червень 2021р., Одеський національний морський університет, навчально-науковий інститут морського бізнесу, спеціальність «Транспортні технології на морському та річковому транспорті» (заочна форма навчання), диплом бакалавра.</p>
+    </div>
+    <hr>
+    <div id="experience">
+        <h3>Досвід роботи</h3>
+        <p >липень 2021 року – грудень 2021р., помічник судді Приморського районного суду м. Одеси<br> грудень 2021р.- вересень 2022р., помічник судді П'ятого апеляційного адміністративного суду.</p>
+    </div>
+    <hr>
+    <div id="skills">
+        <h3>Професійні навички:</h3>
+        <ul>
+            <li class="reference">вміння працювати з базовими програмами MS Office ( Excel, PowerPoint, Word, Access);</li>
+            <li class="list">знання законодавства України, а також здатність швидко і системно опрацьовувати положення нормативно-правових актів, судової практики та наукової літератури;</li>
+            <li class="list">досвід з вирішення складних правових проблем практико-прикладного характеру (зокрема, брав участь у підготовці наукового висновку кафедри з питань цивільно-процесуального права, писав наукові статті у співавторстві з адміністративного права, адміністративного судочинства та цивільно-процесуального права, декілька разів займав призові місця на Всеукраїнському конкурсі наукових робіт (у 2020; 2021 роках) та у внутрішньо університетських конкурсах;</li>
+            <li class="list">маю навички зі складання процесуальних (ухвали, рішення постанови), а також непроцесуальних документів організаційного характеру;</li>
+            <li class="list"> <strong> Знання мов: українська - рідна; російська – володію вільно, англійська – володію на рівні В2, іспанська – середній рівень.</strong></li>
+        </ul>
+        <hr>
+    </div>
+    <div class="researches" id="researches">
+        <h3>Посилання на окремі результати наукової діяльності</h3>
+        <ol>
+            <li class=><a href="https://www.inter-nauka.com/ua/issues/law2021/1/" target="_blank">Суб'єктивний публічний інтерес</a></li>
+            <li><a href="http://dspace.onua.edu.ua/handle/11300/12922" target="_blank">Конституційно-правові проблеми забезпечення прав ЛГБТ-спільнот у контексті принципу заборони дискримінації</a></li>
+        </ol>
+    <div>
+        <ol>
+            <li class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, distinctio!</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, corrupti?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, fugit.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, autem.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, placeat!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, saepe ullam. Quam modi sed eligendi provident illo voluptatibus odit aspernatur fugit, non, soluta tempore expedita veniam magnam rerum laboriosam? Illum.</li>
+        </ol>
+        </div>
+    </body>
+</html>
